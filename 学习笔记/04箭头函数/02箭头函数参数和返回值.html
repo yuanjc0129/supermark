@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TITLE</title>
+</head>
+<body>
+<script src=""></script>
+<script>
+    //1、参数问题
+    //1.1两个参数
+    const sum = function(num1,num2){
+        return num1 + num2;
+    }
+    const sum2 = (num1,num2) => {
+
+    }
+    //1.2一个参数
+    const power = (num) => {
+        return num * num ;
+    }
+    //一个参数时省略号可以省略
+    const power2 = num => {
+        return num * num ;
+    }
+    //2、函数中的代码数量问题
+    //2.1多行代码正常写
+    //2.2一行代码可以特殊写
+    const mul = (num1,num2) => {
+        return num1 * num2 ;
+    }
+    
+    const mul2 = (num1,num2) => num1 * num2 ;
+
+</script>
+</body>
+</html>
