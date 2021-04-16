@@ -1,0 +1,9 @@
+npm run lint --fix
+
+
+直接提交到远程仓库
+git remote add origin https://github.com/yuanjc0129/supermall.git
+git push -u origin master
+
+
+git remote add origin https://github.com/yuanjc0129/supermark.git
